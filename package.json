@@ -1,0 +1,32 @@
+{
+  "name": "iotbigdata",
+  "version": "1.0.0",
+  "description": "Example code for Jax Big Data September 2016 meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfekke/iotbigdata.git"
+  },
+  "keywords": [
+    "IoT",
+    "BigData",
+    "Azure",
+    "Hub",
+    "example"
+  ],
+  "author": "David Fekke <david@fekke.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davidfekke/iotbigdata/issues"
+  },
+  "homepage": "https://github.com/davidfekke/iotbigdata#readme",
+  "dependencies": {
+    "azure-event-hubs": "0.0.3",
+    "azure-iot-device": "^1.0.13",
+    "azure-iot-device-amqp": "^1.0.13",
+    "azure-iothub": "^1.0.15"
+  }
+}
