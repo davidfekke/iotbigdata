@@ -4,12 +4,6 @@ const particle = new Particle();
 const token = process.env.SPARKACCESSTOKEN;
 const buttonDevice = process.env.button_device;
 
-console.log({
-    username: process.env.particle_username, 
-    password: process.env.particle_password 
-});
-
-
 particle.login({
     username: process.env.particle_username, 
     password: process.env.particle_password 
