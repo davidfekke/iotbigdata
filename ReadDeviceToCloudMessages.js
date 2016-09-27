@@ -1,7 +1,7 @@
 'use strict';
 
 var EventHubClient = require('azure-event-hubs').Client;
-var connectionString = 'HostName=JaxBigDataDemo.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=uBvMK7aPknvdmQPwnLJeRlo35F93V7mK3/h9EoLUmNo=';
+var connectionString = 'HostName=JaxBigDataDemo.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=' + process.env.sharedaccesskey;
 
 
 var printError = function (err) {
