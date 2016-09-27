@@ -27,6 +27,7 @@
     "azure-event-hubs": "0.0.3",
     "azure-iot-device": "^1.0.13",
     "azure-iot-device-amqp": "^1.0.13",
-    "azure-iothub": "^1.0.15"
+    "azure-iothub": "^1.0.15",
+    "particle-api-js": "^5.2.6"
   }
 }
